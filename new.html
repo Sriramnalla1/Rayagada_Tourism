@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+              <h1 class="main-heading">Tourism</h1>
+              <p class="paragraph">Plan your trip in Rayagada</p>
+              <button class="button" onclick="display('sectionFavoritePlaces')">
+                Get Started
+              </button>
+            </div>
+          </div>
+    </div>
+
+
+    <div id="sectionFavoritePlaces">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">Favourite Places in Rayagada.
+            </h1>
+            <h4 class="sriram" onclick="display('sectionRam')">
+            This web page Designed by Sriram Nalla
+            </h4>
+      
+      
+          <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionMajhiGouriTemple')">
+              <div>
+                <h1 class="favourite-place-card-heading">Maa Majhighariani Temple</h1>
+                <p class="favourite-place-card-description">
+                 Majhighariani Temple is a shrine to a goddess in the Rayagada township of Odisha india.
+                </p>
+              </div>
+              <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Maa_Sri_Majhigauri.jpg/330px-Maa_Sri_Majhigauri.jpg"
+              class="favourite-place-card-image"/>
+          </div>
+      
+          <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionJagannathTemple')">
+              <div>
+                <h1 class="favourite-place-card-heading">Jagannath Temple, Rayagada.</h1>
+                <p class="favourite-place-card-description">
+                 Jagannath Temple, Rayagada, (known as Sradhha Shrikhetra) stands at the southern side of the town Rayagada.[1][2][3] The temple was originally built more than 50 years back.[4]
+                </p>
+              </div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Jagannath_Temple%2C_Rayagada.1.JPG"
+                class="favourite-place-card-image"
+              />
+          </div>
+      
+          <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionHangingBridge')">
+              <div>
+                <h1 class="favourite-place-card-heading">Hanging Bridge</h1>
+                <p class="favourite-place-card-description">
+                  Hanging Bridge at Chekaguda is Odisha's second hanging bridge[3] near Rayagada in Orissa, India over the Nagavali River.
+                </p>
+              </div>
+              <img
+                src="https://pbs.twimg.com/media/Ep1ANWVUwAAo5cM?format=jpg&name=900x900"
+                class="favourite-place-card-image"
+              />
+            </div>
+      
+          <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionViewPoint')">
+              <div>
+                <h1 class="favourite-place-card-heading">View Point</h1>
+                <p class="favourite-place-card-description">
+                  Look deep into nature, and then you will understand everything better. Nature does not hurry, yet everything is accomplished. Wherever you go, no matter what the weather, always bring your own sunshine. The woods are lovely, dark and deep.
+                </p>
+              </div>
+              <img
+                src="https://pbs.twimg.com/media/EeF_b6LWoAEunn8?format=jpg&name=900x900"
+                class="favourite-place-card-image"
+              />
+          </div>
+          <button class="btn btn-dark" onclick="display('sectionHome')">Back</button>
+        </div>
+     </div> 
+   
+    
+  <div id="sectionMajhiGouriTemple">
+    <div class="detailed-view-bg-container">
+      <h1 class="detailed-view-heading">Detailed View</h1>
+      <div class="detailed-view-card-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://rayagada.odisha.gov.in/sites/default/files/2023-07/Majhigouri%20Temple%201_0.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRXCp5lIZzzTAw6s9xR1dNK5bh9mHJsy9ibMUN6JQOSdj-A4lCZcRyhy2Jq-jKqI02TA&usqp=CAU"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://odishatour.in/wp-content/uploads/2022/09/maa-majhi-gouri-temple.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="detailed-view-card-text-container">
+          <h1 class="detailed-view-card-heading">
+Maa Majhighariani Temple</h1>
+          <p class="detailed-view-card-description">
+           Majhighariani Temple is a shrine to a goddess in the Rayagada township of Odisha.[1] It was built by King Vishwanath Dev Gajapati of the Suryavansh dynasty of Nandapur - Jeypore kingdom. It is believed that he made Rayagada his capital and after the construction of the temple he went on to conquer a vast dominion and expanded his kingdom from parts of Bengal to Telangana in south.[2]
+
+Visitors come to the shrine, especially on Wednesdays and Fridays and for Dussehra in October and Chaitra parva in March–April.[citation needed] The nearest railhead is Rayagada.
+          </p>
+          <button class="btn btn-dark" onclick="display('sectionFavoritePlaces')">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+<div id="sectionJagannathTemple">
+  <div class="detailed-view-bg-container">
+    <h1 class="detailed-view-heading">Detailed View</h1>
+    <div class="detailed-view-card-container">
+      <div id="GoldenTemplecarosel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#GoldenTemplecarosel" data-slide-to="0" class="active"></li>
+          <li data-target="#GoldenTemplecarosel" data-slide-to="1"></li>
+          <li data-target="#GoldenTemplecarosel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Jagannath_Temple%2C_Rayagada.1.JPG" class="d-block w-100 alt="... />
+          </div>
+          <div class="carousel-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Car_ready_for_Car_Festival_at_Rayagada.JPG/1920px-Car_ready_for_Car_Festival_at_Rayagada.JPG" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Jagannath_in_Rama_Balaram_Avatar.jpg/1280px-Jagannath_in_Rama_Balaram_Avatar.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#GoldenTemplecarosel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#GoldenTemplecarosel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="detailed-view-card-text-container">
+        <h1 class="detailed-view-card-heading">Sri Jagannath Temple</h1>
+        <p class="detailed-view-card-description">
+        Jagannath Temple, Rayagada, (known as Sradhha Shrikhetra) stands at the southern side of the town Rayagada.[1][2][3] The temple was originally built more than 50 years back.[4]
+
+History
+Lord Jagannath, Balabhadra and Subhadra are the main deities in the temple. The present structure of the temple, with a new look, has been built in 2007. The Gajapati Raja of Puri honoured the inaugural function of the new Temple on June 20, 2007. Rath yatra is the main festival of the deities.[5]
+
+The temple is at a distance of 110 kilometres (68 mi) from Sabara Shreekhetra Koraput.
+        </p>
+         <button class="btn btn-dark" onclick="display('sectionFavoritePlaces')">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionHangingBridge">
+  <div class="detailed-view-bg-container">
+    <h1 class="detailed-view-heading">Detailed View</h1>
+    <div class="detailed-view-card-container">
+      <div id="HangingBridgecarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#HangingBridgecarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#HangingBridgecarousel" data-slide-to="1"></li>
+          <li data-target="#HangingBridgecarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.alkofholidays.com/uploads/attractions/ah_attraction_image_20220513202636_AttractionOdishaRayagadaHangingBridgeinChekaguda.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://scontent.fbbi1-2.fna.fbcdn.net/v/t1.6435-9/46083206_1948765398545140_6720944698011156480_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_ohc=egkcYYxuPpoQ7kNvgGC9FE0&_nc_ht=scontent.fbbi1-2.fna&oh=00_AYDbgmDJ-wRzcCyKuvd9Pl22lFO7tHiowhKDZ7oKMPGTUQ&oe=66B8419E" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/G0q97GXjtIU/maxresdefault.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#HangingBridgecarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#HangingBridgecarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="detailed-view-card-text-container">
+        <h1 class="detailed-view-card-heading">Hanging Bridge</h1>
+        <p class="detailed-view-card-description">
+         Hanging Bridge at Chekaguda is Odisha's second hanging bridge[3] near Rayagada in Orissa, India over the Nagavali River. The bridge links the town of Rayagada to the villages of Mariguda, Chakaguda etc. The bridge is mainly a medium of communication as well as a tourist attraction.[4] The bridge is open all the year round (subject to weather) and people may cross it without a fee. Designed by Karnataka-based 'Bharat Grama Sethu Pratisthana' Chief Girish Bhardwaj, the project was entrusted to Odisha Police Housing Corporation[5][6] by the District Administration
+        </p>
+     <button class="btn btn-dark" onclick="display('sectionFavoritePlaces')">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="sectionViewPoint">
+  <div class="detailed-view-bg-container">
+    <h1 class="detailed-view-heading">Detailed View</h1>
+    <div class="detailed-view-card-container">
+      <div id="ViewPointcarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#ViewPointcarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#ViewPointcarousel" data-slide-to="1"></li>
+          <li data-target="#ViewPointcarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.ytimg.com/vi/T19f5LKnozo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCwv0HzG7XLbqm9jtbRizW6X1KL9w" class="d-block w-100" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnGAdruawawqXJoNIgA3XuKzYktOpHSSf1vA&s" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://pbs.twimg.com/media/FAv45sXVcAEYzuJ?format=jpg&name=4096x4096" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#ViewPointcarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#ViewPointcarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="detailed-view-card-text-container">
+        <h1 class="detailed-view-card-heading">View Point</h1>
+        <p class="detailed-view-card-description">
+         Rayagada, located in the Indian state of Odisha, offers several scenic viewpoints that showcase the region's natural beauty. Here are some notable viewpoints in Rayagada:
+
+Hanging Bridge at Chekaguda: This bridge offers stunning views of the Nagavali River and the surrounding hills, making it a popular spot for both locals and tourists.
+Minajhola: Known for its picturesque setting, Minajhola is a scenic spot surrounded by dense forests and a confluence of rivers, providing a serene and tranquil environment.
+
+        </p>
+      <button class="btn btn-dark" onclick="display('sectionFavoritePlaces')">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionRam">
+  <div class="detailed-view-bg-container">
+    <h1 class="detailed-view-heading">Developer</h1>
+    <div class="detailed-view-card-container">
+      <div id="ViewPointcarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#ViewPointcarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#ViewPointcarousel" data-slide-to="1"></li>
+          <li data-target="#ViewPointcarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.instagram.com/p/C3EmG3CRvZ2/" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.instagram.com/p/CxZ73TSxO0j/" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#ViewPointcarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#ViewPointcarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="detailed-view-card-text-container">
+        <h1 class="detailed-view-card-heading">SRIRAM NALLA</h1>
+        <p class="detailed-view-card-description">
+         This Web site designed by Sriram nalla Using HTML CSS and BOOTSTRAP. This is the Website for your trip in Rayagada. it shows famous places to visit in Rayagada city.
+        </p>
+      <button class="btn btn-dark" onclick="display('sectionFavoritePlaces')">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+  </body>
+</html>
